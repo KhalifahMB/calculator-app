@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply shadow-md rounded-2xl   h-12  font-bold flex items-center w-full justify-center cursor-pointer text-xl shadow-slate-600;
+  }
+}
+
+:root {
+  --bg: "red";
+}
